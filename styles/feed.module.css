@@ -1,0 +1,119 @@
+.container {
+  background-color: #FAFAFA;
+  height: 100vh;
+}
+.header {
+  background-color: white;
+  height: 62px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+  /* position: sticky;
+  top:0; */
+}
+
+.pages {
+  font-size: 23px;
+  padding-left: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+.input {
+  height: 32px;
+  width: 210px;
+  border-radius: 10px;
+  background-color: #f0eeee;
+  border: none;
+  padding: 18px;
+}
+.input:focus {
+  outline: none;
+  border: 1px solid #8a8a8a;
+}
+.input_pages{
+  display: flex;
+  gap: 73px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.side_card{
+  width: 300px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #8a8a8a; */
+  float: right;
+  position: relative;
+  top: 57px;
+  right: 354px;
+}
+.side_card2{
+  width: 300px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #8a8a8a; */
+  float: right;
+  position: relative;
+  top: 119px;
+  right: 50px;
+  
+}
+
+.side_card3{
+  width: 300px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #8a8a8a; */
+  float: right;
+  position: relative;
+  top: 149px;
+  right: -100px;
+  left: 252px;
+}
+
+.side_card4{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #8a8a8a; */
+  float: right;
+  position: relative;
+  top: 218px;
+  right: -403px;
+  left: 553px;
+}
+
+.posts{
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+  left: 445px;
+  border: 1px solid #dedede;
+}
+.post_header{
+  display: flex;
+  justify-content: space-between;
+  gap: 338px;
+  align-items: center;
+  padding: 8px 10px;
+  border-bottom: 1px solid #dedede;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 10px;
+}
+
+
